@@ -3,7 +3,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: db/development.pg
+  database: postgres
   pool: 5
   username: postgres
   password: G00dL1fe
@@ -24,7 +24,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: db/production.pg
+  database: postgres
   pool: 5
   username: postgres
   password: G00dL1fe
