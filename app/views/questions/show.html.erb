@@ -17,7 +17,7 @@
 
 <p>
   <b>Answers:</b>
-  <table>
+  <table border="1">
     <tr>
       <th>Answer</th>
       <th>From</th>
@@ -32,7 +32,7 @@
   
 </p>
 
-
+<p><%=link_to "Add A New Answer", new_answer_path(:question_id=>@question.id), :class=> "new-btn"%></p>
 
 <%= link_to 'Edit', edit_question_path(@question) %> |
 <%= link_to 'Back', questions_path %>
